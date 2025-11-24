@@ -34,6 +34,7 @@ def parse(
 
     return (
         book['id'],
+        # I assume other fields might be missing
         book.get('title'),
         book.get('author'),
         book.get('genre'),
