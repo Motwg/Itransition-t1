@@ -16,5 +16,5 @@ done
 echo "JSON converted"
 
 source ./.venv/bin/activate
-python3 -m insert.py
+python3 insert.py
 echo "Done"
